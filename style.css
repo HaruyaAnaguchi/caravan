@@ -21,16 +21,17 @@ header {
   position: relative;
 }
 
-.social i {
-  display: inline-block;
-  margin-left: 20px;
-
-}
-
 .social {
   position: absolute;
   top: 22px;
   right: 22px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.social i {
+  display: inline-block;
 }
 
 header .heading {
