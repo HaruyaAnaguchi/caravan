@@ -231,10 +231,6 @@ footer {
 
 @media screen and (max-width: 425px) {
 
-body {
-width: 100%;
-}
-
 header {
 width: 100%;
 }
@@ -260,12 +256,53 @@ main {
   display: block;
 }
 
+.blog {
+  width: 100%;
+}
+
 .blog-box {
   width: 100%;
+  padding: 10px;
+}
+
+.blog-item {
+  padding: 10px 0;
+}
+
+.blog-image {
+  width: 50%;
+}
+
+.blog-text {
+  padding: 5px 0 0 15px;
+}
+
+.pagination {
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 .sidebar {
   width: 100%;
+}
+
+.sidebar-contents {
+  padding: 20px 0 30px 6%;
+}
+
+.instagram {
+  margin: 0 auto;
+}
+
+.instagram-box {
+  width: 45%;
+  height: 150px;
+  padding-top: 0;
+  margin-right: 3.3%;
+}
+
+.instagram-box:nth-child(even) {
+  margin-right: 0;
 }
 
 }
