@@ -24,7 +24,7 @@ header {
 .social i {
   display: inline-block;
   margin-left: 20px;
-  
+
 }
 
 .social {
@@ -227,4 +227,45 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+
+body {
+width: 100%;
+}
+
+header {
+width: 100%;
+}
+
+.nav-list-item {
+  display: block;
+}
+
+.main-visual {
+  width: 100%;
+}
+
+.main-visual-content {
+  width: 100%;
+}
+
+.social {
+  display: none;
+}
+
+main {
+  width: 100%;
+  display: block;
+}
+
+.blog-box {
+  width: 100%;
+}
+
+.sidebar {
+  width: 100%;
+}
+
 }
